@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Photos />} exact />
           <Route path="/add" element={<Add />} exact />
           <Route path="/Photos" element={<Photos />} exact />
-           <Route path="/photos/:id" element={<PicDetail />} exact />
+          <Route path="/photos/:id" element={<PicDetail />} exact />
         </Routes>
       </main>
     </>
